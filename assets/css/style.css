@@ -1,0 +1,219 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.5;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #dab2b246;
+  }
+  
+  .active {
+    background-color: #420ff8;
+  }
+  
+    .logo  {
+      height: 110px;
+    }
+
+    #btn-menu {
+      padding: 14px 16px;
+      text-decoration: none;
+      color: #712323;
+      font-weight: bold;
+      z-index: 10;
+    }
+
+    #btn-menu:hover {
+      background-color: #dab2b246;
+    }
+
+    .menu {
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 0 30px;
+      width: 100%;
+    }
+    
+    .lista-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items: center; 
+     
+    }
+   
+    .logotipo{
+      width: 100%;
+      height: auto;
+      padding-top: 0px;
+    }
+    
+    .sobre {
+      margin-top: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      color: #FFFFFF;
+      background-color: #712323;
+    }
+
+   .sobre img {
+    max-width: 100%;
+    object-fit: cover;
+   }
+
+   #boxMenu {
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    padding-top: 120px;
+    display: none;
+   }
+
+
+   .aparece {
+    display: block !important;
+   }
+
+   h2 {
+    margin-bottom: 20px;
+    text-align: center;
+   }
+
+   .produtos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+    gap: 20px
+  }
+
+  .produtos li {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .produtos li img {
+   width: 100%;
+  }
+
+
+  .cardapio {
+    width: 100% ;
+    padding-top: 50px;
+  }
+
+  .cardapio-pagina {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .cardapio-vermelho {
+    background-color:#712323;
+    width: 100%;
+    min-height: 500px;
+    padding: 30px;
+  }
+
+  .cardapio-amarelo {
+    background-color: #F5F4B3;
+    width: 100%;
+    min-height: 500px;
+    padding: 30px;
+  }
+  
+
+
+
+   @media(min-width: 700px) {
+
+    .cardapio-pagina {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .cardapio-vermelho {
+      width: 50%;
+    }
+  
+    .cardapio-amarelo {
+      width: 50%;
+    }
+
+
+    #boxMenu {
+      display: block;
+      padding-top: 0px;
+      height: 100%;
+      width: 100%;
+      background-color: transparent;
+      position: relative;
+     }
+
+    #btn-menu {
+      display: none;
+    }
+
+    .lista-menu {
+      display:flex;
+      flex-direction: row;
+    }
+  
+  
+}
+  
+  
+@media(min-width: 1080px) {
+  .sobre {
+    margin-top: 50px;
+    padding: 30px;
+    flex-direction: row;
+  }
+
+  .sobre img {
+    max-width: 50vw;
+   }
+
+}
+
+  
+  
