@@ -221,7 +221,6 @@ footer {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 footer a {
@@ -232,7 +231,7 @@ footer a {
 }
 
 .logo2 {
-  height: 20px;
-  width: 30px;
+  height: 70px;
+  width: 70px;
   margin-right: 10px;
 }
