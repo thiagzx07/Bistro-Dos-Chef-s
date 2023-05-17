@@ -144,7 +144,7 @@ body {
   .cardapio-pagina {
     display: flex;
     flex-direction: column;
-  
+  padding-top: 50px;
   }
   
   .cardapio-vermelho {
@@ -152,6 +152,21 @@ body {
     width: 100%;
     min-height: 500px;
     padding: 30px;
+    color: white;
+  }
+
+  .cardapio-vermelho h2 {
+    color: #F5F4B3 ;
+    text-align: left;
+  }
+
+  .cardapio-vermelho span {
+     float: right;
+  }
+
+  .cardapio-pagina p {
+    padding-bottom: 30px;
+    
   }
 
   .cardapio-amarelo {
@@ -159,6 +174,15 @@ body {
     width: 100%;
     min-height: 500px;
     padding: 30px;
+  }
+
+  .cardapio-amarelo h2 {
+    text-align: left;
+    color: #712323;
+  }
+
+  .cardapio-amarelo span {
+    float: right;
   }
   
 
