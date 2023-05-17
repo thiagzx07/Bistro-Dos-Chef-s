@@ -148,7 +148,7 @@ body {
   }
   
   .cardapio-vermelho {
-    background-color:#712323;
+    background-color:#771c1c;
     width: 100%;
     min-height: 500px;
     padding: 30px;
@@ -172,13 +172,13 @@ body {
   .cardapio-amarelo {
     background-color: #F5F4B3;
     width: 100%;
-    min-height: 500px;
+    min-height: 1050px;
     padding: 30px;
   }
 
   .cardapio-amarelo h2 {
     text-align: left;
-    color: #712323;
+    color: #702323;
   }
 
   .cardapio-amarelo span {
