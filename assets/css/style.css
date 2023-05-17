@@ -146,12 +146,23 @@ body {
     flex-direction: column;
   
   }
+
+  .cardapio-pagina span {
+    float: right;
+  }
+
+  .cardapio-vermelho h2 {
+    color:#F5F4B3;
+    text-align: left;
+  }
   
+
   .cardapio-vermelho {
     background-color:#712323;
     width: 100%;
     min-height: 500px;
     padding: 30px;
+    color: white;
   }
 
   .cardapio-amarelo {
@@ -159,6 +170,17 @@ body {
     width: 100%;
     min-height: 500px;
     padding: 30px;
+  }
+
+.cardapio-amarelo span {
+  float: right;
+}
+
+
+
+  .cardapio-amarelo h2 {
+    color:#712323;
+    text-align: left;
   }
   
 
