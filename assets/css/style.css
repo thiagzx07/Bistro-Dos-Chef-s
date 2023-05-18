@@ -174,7 +174,12 @@ body {
     width: 100%;
     min-height: 1050px;
     padding: 30px;
+    color: #712323;
   }
+
+.cardapio-amarelo h1 {
+  text-align: center;
+}
 
   .cardapio-amarelo h2 {
     text-align: left;
@@ -182,11 +187,13 @@ body {
   }
 
   .cardapio-amarelo span {
-    float: right;
+    float:right;
   }
   
 
-
+.pratos {
+  width: 100%;
+}
 
    @media(min-width: 700px) {
 
