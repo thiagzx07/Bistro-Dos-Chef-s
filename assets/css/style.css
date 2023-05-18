@@ -106,7 +106,7 @@ body {
     display: block !important;
    }
 
-   h2 {
+   h1 {
     margin-bottom: 20px;
     text-align: center;
    }
@@ -157,10 +157,10 @@ body {
 
   .cardapio-vermelho h2 {
     color: #F5F4B3 ;
-    text-align: left;
   }
 
   .cardapio-vermelho span {
+    margin-left: 20px;
      float: right;
   }
 
@@ -183,20 +183,30 @@ body {
 }
 
   .cardapio-amarelo h2 {
-    text-align: left;
     color: #702323;
   }
 
   .cardapio-amarelo span {
+    margin-left: 20px;
     float:right;
   }
   
+.maisvendidos {
+  display: flex;
+  flex-direction: column;
+}
 
 .pratos {
   width: 100%;
 }
 
-   @media(min-width: 700px) {
+.centro {
+  text-align: center;
+  width: 100%;
+}
+
+
+@media(min-width: 700px) {
 
     .cardapio-pagina {
       display: flex;
@@ -232,9 +242,16 @@ body {
   
   
 }
+
   
   
 @media(min-width: 1080px) {
+
+  .maisvendidos {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
   .sobre {
     margin-top: 50px;
     padding: 30px;
