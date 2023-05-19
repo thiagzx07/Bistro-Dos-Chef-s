@@ -12,13 +12,6 @@ body {
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
   }
   
   li a {
@@ -58,7 +51,8 @@ body {
       justify-content:space-between;
       align-items: center;
       padding: 0 30px;
-      width: 100%;
+      width: 1380px;
+      margin-inline: auto;
     }
     
     .lista-menu {
@@ -99,6 +93,7 @@ body {
     width: 100%;
     padding-top: 120px;
     display: none;
+    
    }
 
 
@@ -135,6 +130,10 @@ body {
    width: 100%;
   }
 
+  footer {
+    width: 1080px;
+    margin: 60px auto;
+  }
 
   .cardapio {
     width: 100% ;
@@ -226,7 +225,7 @@ body {
       display: block;
       padding-top: 0px;
       height: 100%;
-      width: 100%;
+      width: 600px;
       background-color: transparent;
       position: relative;
      }
