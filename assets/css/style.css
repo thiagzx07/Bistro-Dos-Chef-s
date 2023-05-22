@@ -39,9 +39,7 @@ body {
   
     .logo  {
       height: 110px;
-      border: 2px solid #37995A;
-      border-radius: 50%;
-      overflow:scroll;
+     
     }
 
     #btn-menu {
