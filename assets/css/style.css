@@ -270,24 +270,27 @@ footer {
 }
 
 #cookie-notification {
- background-color: #712323;
- border: 1px solid black;
- border-radius: 4px;
- padding: 2px;
-width: 80%;
- box-shadow: 0 0 5px green;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #712323de;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#cookie-notification button {
+  background-color: #379959;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-#accept-cookie {
-background-color: yellow;
-color: #000000;
-border: 2px solid pink;
-padding: 8px 15px;
-border-radius: 4px;
-transition: all 0.3s ease;
+#btn-cookie:hover {
+  background-color: #37995980;
 }
-
-
 
 
   

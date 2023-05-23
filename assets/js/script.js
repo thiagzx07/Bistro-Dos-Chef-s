@@ -1,22 +1,8 @@
-function menu() {
-    var boxmenu = document.getElementById("boxMenu");
-    boxmenu.classList.toggle("aparece");
-}
-
 function acceptCookies() {
-    // Salvar a preferência do usuário de aceitar os cookies
-    localStorage.setItem('cookiesAccepted', 'true');
+    // Aqui você pode adicionar código para salvar a preferência do usuário em relação aos cookies
+    // Por exemplo, usando cookies ou localStorage
 
-    // Remover a notificação de cookie
-    var cookieNotification = document.querySelector('.cookie-notification');
-    cookieNotification.style.display = 'none';
+    // Remove a notificação de cookie
+    var cookieNotification = document.getElementById('cookie-notification');
+    cookieNotification.parentNode.removeChild(cookieNotification);
 }
-
-// Verificar se o usuário já aceitou os cookies anteriormente
-window.addEventListener('load', function() {
-    var cookiesAccepted = localStorage.getItem('cookiesAccepted');
-    if (cookiesAccepted) {
-        var cookieNotification = document.querySelector('.cookie-notification');
-        cookieNotification.style.display = 'none';
-    }
-});
