@@ -51,7 +51,7 @@ body {
     }
 
     #btn-menu:hover {
-      background-color: #dab2b246;
+      background-color: #7123239a;
     }
 
     .menu {
@@ -274,11 +274,12 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #712323de;
+  background-color: #712323c9;
   color: white;
   padding: 10px;
   text-align: center;
 }
+
 #cookie-notification button {
   background-color: #379959;
   color: white;
@@ -292,5 +293,53 @@ footer {
   background-color: #37995980;
 }
 
+form {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
 
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  height: 120px;
+}
+
+input[type="submit"] {
+  background-color: #379959;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.formulario {
+  text-align: center;
+  padding: 50px;
+}
   
