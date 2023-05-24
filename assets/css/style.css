@@ -175,7 +175,7 @@ body {
     width: 100%;
     min-height: 1050px;
     padding: 30px;
-    color: #712323;
+    color: #000000;
   }
 
 .cardapio-amarelo h1 {
@@ -350,3 +350,14 @@ input[type="submit"]:hover {
   padding: 50px;
 }
   
+.rodape {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  text-align: justify;
+}
+
+.rodape img {
+  width: 50px;
+  
+}
