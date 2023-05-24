@@ -242,7 +242,8 @@ body {
     }
 
     .lista-menu img {
-      width: au;
+      width: 50px;
+      display:inline-flex ;
     }
   
   
@@ -266,6 +267,8 @@ body {
   .sobre img {
     max-width: 50vw;
    }
+
+   
 
 }
 
