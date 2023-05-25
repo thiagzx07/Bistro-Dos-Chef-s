@@ -5,7 +5,7 @@
 }
 
 *:focus {
-  border: 1px solid red;
+  border: 1px solid rgb(128, 19, 19);
 }
 
 
@@ -212,7 +212,7 @@ body {
 
 
 footer {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 #cookie-notification {
@@ -295,6 +295,7 @@ input[type="submit"]:hover {
   justify-content:space-between;
   text-align: justify;
   margin-bottom: 50px;
+
 }
 
 .rodape img {
@@ -310,7 +311,15 @@ input[type="submit"]:hover {
 
 
 .rodape .instagram {
-  color: red !important;
+  color: #9747ff;
+}
+
+.rodape .whatsapp {
+  color:#1ADD16;
+}
+
+.rodape .endereco {
+  color:#712323;
 }
 
 
