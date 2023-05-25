@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  border: 1px solid red;
+}
+
 
 body {
   font-family: 'Noto Sans', sans-serif;
@@ -207,73 +211,8 @@ body {
 }
 
 
-@media(min-width: 700px) {
-
-    .cardapio-pagina {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .cardapio-vermelho {
-      width: 50%;
-    }
-  
-    .cardapio-amarelo {
-      width: 50%;
-    }
-
-
-    #boxMenu {
-      display: block;
-      padding-top: 0px;
-      height: 100%;
-      width: 100%;
-      background-color: transparent;
-      position: relative;
-     }
-
-    #btn-menu {
-      display: none;
-    }
-
-    .lista-menu {
-      display:flex;
-      flex-direction: row;
-    }
-
-    .lista-menu img {
-      width: 50px;
-      display:inline-flex ;
-    }
-  
-  
-}
-
-  
-  
-@media(min-width: 1080px) {
-
-  .maisvendidos {
-    justify-content: space-between;
-    flex-direction: row;
-  }
-
-  .sobre {
-    margin-top: 50px;
-    padding: 0px;
-    flex-direction: row;
-  }
-
-  .sobre img {
-    max-width: 50vw;
-   }
-
-   
-
-}
-
 footer {
-  margin: 100px;
+  margin-top: 50px;
 }
 
 #cookie-notification {
@@ -352,12 +291,98 @@ input[type="submit"]:hover {
   
 .rodape {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content:space-between;
   text-align: justify;
+  margin-bottom: 50px;
 }
 
 .rodape img {
   width: 50px;
   
+}
+
+.rodape li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.rodape .instagram {
+  color: red !important;
+}
+
+
+
+@media(min-width: 700px) {
+
+  .rodape {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align: justify;
+  }
+
+    .cardapio-pagina {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .cardapio-vermelho {
+      width: 50%;
+    }
+  
+    .cardapio-amarelo {
+      width: 50%;
+    }
+
+
+    #boxMenu {
+      display: block;
+      padding-top: 0px;
+      height: 100%;
+      width: 100%;
+      background-color: transparent;
+      position: relative;
+     }
+
+    #btn-menu {
+      display: none;
+    }
+
+    .lista-menu {
+      display:flex;
+      flex-direction: row;
+    }
+
+    .lista-menu img {
+      width: 50px;
+      display:inline-flex ;
+    }
+  
+  
+}
+
+  
+  
+@media(min-width: 1080px) {
+
+  .maisvendidos {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .sobre {
+    margin-top: 50px;
+    padding: 0px;
+    flex-direction: row;
+  }
+
+  .sobre img {
+    max-width: 50vw;
+   }
+
+   
+
 }
