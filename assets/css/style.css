@@ -5,7 +5,7 @@
 }
 
 *:focus {
-  border: 1px solid rgb(128, 19, 19);
+  border: 1px solid rgba(216, 140, 140, 0.541);
 }
 
 
@@ -34,7 +34,7 @@ body {
   }
   
   li a:hover:not(.active) {
-    background-color: #dab2b246;
+    background-color: #7a383860;
   }
   
   .active {
@@ -69,6 +69,7 @@ body {
     .lista-menu {
       display: flex;
       flex-direction: column;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       justify-content:space-between;
       align-items: center; 
      
@@ -252,6 +253,7 @@ label {
   display: block;
   margin-bottom: 8px;
   color: #000000;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input[type="text"],
@@ -311,14 +313,17 @@ input[type="submit"]:hover {
 
 
 .rodape .instagram {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #9747ff;
 }
 
 .rodape .whatsapp {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:#1ADD16;
 }
 
 .rodape .endereco {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:#712323;
 }
 
